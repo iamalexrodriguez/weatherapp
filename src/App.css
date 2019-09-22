@@ -119,6 +119,11 @@ button {
     color: #fff;
     font-weight: 200;
   }
+
+  .weather__subvalue {
+    color: #E84F3B;
+    font-weight: 200;
+  }
   
   .weather__error {
     color: #f16051;

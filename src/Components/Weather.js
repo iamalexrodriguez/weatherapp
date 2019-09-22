@@ -9,7 +9,10 @@ const Weather = props => (
         }
         {
             props.temperature && <p className="weather__key">Temperature: 
-                <span className="weather__value"> {props.temperature}</span>
+                <span className="weather__value"> {props.temperature} ℃ <br/>
+                <span className="weather__subvalue"> Min:</span> {props.minTemp}℃ 
+                <span className="weather__subvalue"> Max:</span> {props.maxTemp}℃
+                </span>
             </p>
         }
         {
